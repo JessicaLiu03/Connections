@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainpage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="connections.AppController">
+   <children>
+      <Pane fx:id="background1" layoutY="476.0" prefHeight="126.0" prefWidth="500.0" style="-fx-background-color: #afcecf; -fx-border-style: solid; -fx-border-color: #568e8f;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Button fx:id="submit1" layoutX="443.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleAdd" text="Add" />
+            <Label fx:id="invalid" alignment="CENTER" contentDisplay="CENTER" layoutX="330.0" layoutY="15.0" prefHeight="17.0" prefWidth="149.0" text="(Invalid category, try again)" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Pane fx:id="background" layoutX="58.0" layoutY="137.0" prefHeight="89.0" prefWidth="389.0" style="-fx-background-color: #afcecf; -fx-border-style: solid; -fx-border-color: #568e8f;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Pane>
+      <Label id="title" fx:id="tittel" layoutX="74.0" layoutY="23.0" prefHeight="72.0" prefWidth="352.0" text="CONNECTIONS">
+         <font>
+            <Font name="MingLiU-ExtB" size="64.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="box1" layoutX="74.0" layoutY="243.0" mnemonicParsing="false" onAction="#handle" text="Word 1" />
+      <CheckBox fx:id="box2" layoutX="174.0" layoutY="243.0" mnemonicParsing="false" onAction="#handle" text="Word 2" />
+      <CheckBox fx:id="box3" layoutX="271.0" layoutY="243.0" mnemonicParsing="false" onAction="#handle" text="Word 3" />
+      <CheckBox fx:id="box4" layoutX="365.0" layoutY="243.0" mnemonicParsing="false" onAction="#handle" text="Word 4" />
+      <CheckBox fx:id="box7" layoutX="271.0" layoutY="283.0" mnemonicParsing="false" onAction="#handle" text="Word 7" />
+      <CheckBox fx:id="box6" layoutX="173.0" layoutY="283.0" mnemonicParsing="false" onAction="#handle" text="Word 6" />
+      <CheckBox fx:id="box5" layoutX="74.0" layoutY="283.0" mnemonicParsing="false" onAction="#handle" text="Word 5" />
+      <CheckBox fx:id="box8" layoutX="365.0" layoutY="283.0" mnemonicParsing="false" onAction="#handle" text="Word 8" />
+      <CheckBox fx:id="box9" layoutX="74.0" layoutY="325.0" mnemonicParsing="false" onAction="#handle" text="Word 9" />
+      <CheckBox fx:id="box10" layoutX="173.0" layoutY="325.0" mnemonicParsing="false" onAction="#handle" text="Word 10" />
+      <CheckBox fx:id="box11" layoutX="271.0" layoutY="325.0" mnemonicParsing="false" onAction="#handle" text="Word 11" />
+      <CheckBox fx:id="box12" layoutX="365.0" layoutY="325.0" mnemonicParsing="false" onAction="#handle" text="Word 12" />
+      <Button fx:id="submit" layoutX="368.0" layoutY="415.0" mnemonicParsing="false" onAction="#handlesubmit" text="Submit" />
+      <Button fx:id="newgame" layoutX="214.0" layoutY="123.0" mnemonicParsing="false" onAction="#handleNewGame" text="New game" />
+      <Button fx:id="groupsize2" layoutX="14.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleGroupSize" text="2" />
+      <Button fx:id="groupsize3" layoutX="450.0" layoutY="23.0" mnemonicParsing="false" onAction="#handleGroupSize" text="3" />
+      <Button fx:id="groupsize4" layoutX="450.0" layoutY="59.0" mnemonicParsing="false" onAction="#handleGroupSize" text="4" />
+      <Label fx:id="howmanywords" layoutX="169.0" layoutY="127.0" text="How many words per category?" />
+      <Label fx:id="incorrect" layoutX="195.0" layoutY="109.0" text="Incorrect submission" textAlignment="CENTER" />
+      <Label fx:id="correct" layoutX="199.0" layoutY="110.0" text="Correct submission" textAlignment="CENTER" />
+      <CheckBox fx:id="box13" layoutX="74.0" layoutY="365.0" mnemonicParsing="false" onAction="#handle" text="Word 13" />
+      <CheckBox fx:id="box14" layoutX="173.0" layoutY="365.0" mnemonicParsing="false" onAction="#handle" text="Word 14" />
+      <CheckBox fx:id="box15" layoutX="271.0" layoutY="365.0" mnemonicParsing="false" onAction="#handle" text="Word 15" />
+      <CheckBox fx:id="box16" layoutX="365.0" layoutY="365.0" mnemonicParsing="false" onAction="#handle" text="Word 16" />
+      <Label fx:id="submissionLabel1" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="145.0" text="submission1" textAlignment="CENTER" />
+      <Label fx:id="submissionLabel2" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="164.0" text="submission2" textAlignment="CENTER" />
+      <Label fx:id="submissionLabel3" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="183.0" text="submission3" textAlignment="CENTER" />
+      <Label fx:id="submissionLabel4" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="201.0" text="submission4" textAlignment="CENTER" />
+      <Label fx:id="correct1" alignment="TOP_CENTER" layoutX="181.0" layoutY="491.0" prefHeight="17.0" prefWidth="149.0" text="Add your own category!" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="correct11" alignment="TOP_CENTER" layoutX="16.0" layoutY="524.0" prefHeight="17.0" prefWidth="95.0" text="Category Name:" textAlignment="CENTER" />
+      <Label fx:id="correct111" alignment="TOP_CENTER" layoutX="120.0" layoutY="524.0" prefHeight="17.0" prefWidth="95.0" text="Add four words:" textAlignment="CENTER" />
+      <TextField fx:id="categoryname" layoutX="19.0" layoutY="548.0" prefHeight="25.0" prefWidth="95.0" />
+      <TextField fx:id="addedword1" layoutX="125.0" layoutY="548.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="addedword2" layoutX="204.0" layoutY="548.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="addedword3" layoutX="285.0" layoutY="548.0" prefHeight="25.0" prefWidth="73.0" />
+      <TextField fx:id="addedword4" layoutX="366.0" layoutY="548.0" prefHeight="25.0" prefWidth="73.0" />
+   </children>
+</AnchorPane>

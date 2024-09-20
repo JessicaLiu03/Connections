@@ -1,0 +1,23 @@
+Plant growths,bloom,bud,shoot,sprout
+Camera bands,canon,olumpus,fujifilm,polaroid
+Female animal names,cow,doe,ewe,hen
+Words for talk,gab,jaw,yak,yap
+Pursue,chase,shadow,tail,track
+Seen in a Passport,name,photo,stamp,visa
+Become aware of,discover,find,learn,realize
+Fail to attend,cut,ditch,miss,skip
+Yellow-Brown shades,beige,camel,khaki,tan
+"Step on it!",faster,go,hurry,move
+Musical instruments,bass,bassoon,harp,recorder
+Solar emanations,corona,flare,light,radiation
+Games of chance,bingo,lottery,roulette,war
+Quarrel,fight,row,scrap,tiff
+Update for accuracy,amend,correct,fix,revise
+Kinds of whales,blue,fin,gray,right
+Exited,departed,left,split,went
+Take a tumble,fall,slip,spill,trip
+Kinds of water,mineral,spring,still,tap
+Seen in "Cinderella",ball,prince,pumpkin,slipper
+Thrust,jab,poke,prod,stick
+Skin types,combination,dry,normal,oily
+Poker actions,bet,call,check,fold
