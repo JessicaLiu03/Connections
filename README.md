@@ -25,6 +25,8 @@ Connections is a Java-based version of the popular New York Times game *Connecti
    ```
 3. Compile and run the application:
    ```sh
+   mvn clean package
+   mvn javafx:run
    ```
 
 ## Usage
